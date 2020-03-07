@@ -1,0 +1,63 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/icons": "^4.5.1",
+    "antd": "^3.25.1",
+    "array-move": "^2.2.0",
+    "async": "^3.1.0",
+    "axios": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "file-loader": "^5.1.0",
+    "googleapis": "^45.0.0",
+    "image-webpack-loader": "^6.0.0",
+    "infinite-react-carousel": "^1.1.7",
+    "ip": "^1.1.5",
+    "less": "^3.10.3",
+    "mongoose": "^5.7.7",
+    "mongoose-sequence": "^5.2.2",
+    "nodemon": "^1.19.4",
+    "query-string": "^6.9.0",
+    "react": "^16.11.0",
+    "react-beautiful-dnd": "^12.1.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-modal": "^3.11.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-sortable-hoc": "^1.10.1",
+    "request": "^2.88.0",
+    "url-loader": "^3.0.0"
+  },
+  "scripts": {
+    "webpack": "webpack",
+    "start": "npm run webpack && nodemon --exec babel-node -- bin/www"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.9.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "webpack-cli": "^3.3.10"
+  }
+}

@@ -1,0 +1,32 @@
+@import url(//db.onlinewebfonts.com/c/a3bedb01641c8ea21cbc762706b3fd7e?family=AvenirNextW06-Bold);
+
+@font-face {
+    font-family: 'Avenir';
+    src: local('Avenir'), url(../assets/fonts/AvenirLTStd-Book.otf) format('otf');
+}
+
+@font-face {font-family: "AvenirNextW06-Bold"; src: url("//db.onlinewebfonts.com/t/a3bedb01641c8ea21cbc762706b3fd7e.eot"); src: url("//db.onlinewebfonts.com/t/a3bedb01641c8ea21cbc762706b3fd7e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a3bedb01641c8ea21cbc762706b3fd7e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a3bedb01641c8ea21cbc762706b3fd7e.woff") format("woff"), url("//db.onlinewebfonts.com/t/a3bedb01641c8ea21cbc762706b3fd7e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a3bedb01641c8ea21cbc762706b3fd7e.svg#AvenirNextW06-Bold") format("svg"); }
+
+html, body, #root, .App {
+    height: 100%;
+}
+.Appbar {
+}
+
+.Chatbot {
+    margin-top: 40px;
+    text-align: center;
+    align-content: center;
+    border-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
